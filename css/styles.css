@@ -1,16 +1,16 @@
-:root{
+:root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --hero-color: #2F303A;
+  --hero-color: #2f303a;
   --color-white: #ffffff;
   --color-black: #000000;
-  --hero-button-color: #188CE8;
-  --accent-color: #2196F3;
-  --team-section-color: #F5F4FA;
+  --hero-button-color: #188ce8;
+  --accent-color: #2196f3;
+  --team-section-color: #f5f4fa;
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
-body{
+body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
@@ -19,12 +19,19 @@ body{
   line-height: 1.7;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
   margin: 0;
   padding: 0;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
@@ -46,19 +53,18 @@ img {
   margin: -1px;
 }
 
-.container{
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   /* outline: 1px solid tomato; */
-
 }
 
 /* Header */
 
-.logo{
+.logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -68,32 +74,32 @@ img {
   letter-spacing: 0.03em;
 }
 
-.header{
+.header {
   border-bottom: 1px solid #ececec;
 }
 
-.header .part{
+.header .part {
   color: var(--color-black);
 }
 
-.header-section{
+.header-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.navigation{
+.navigation {
   display: flex;
   align-items: center;
   gap: 93px;
 }
 
-.navigation .list{
+.navigation .list {
   display: flex;
   gap: 50px;
 }
 
-.navigation .link{
+.navigation .link {
   display: block;
   padding: 32px 0;
 
@@ -105,20 +111,20 @@ img {
 }
 
 .navigation .link:hover,
-.navigation .link:focus{
+.navigation .link:focus {
   color: var(--accent-color);
 }
 
-.navigation .current{
+.navigation .current {
   color: var(--accent-color);
 }
 
-.header-links{
+.header-links {
   display: flex;
   gap: 50px;
 }
 
-.header .contacts{
+.header .contacts {
   padding: 32px 0px;
 
   color: var(--primary-text-color);
@@ -129,7 +135,7 @@ img {
 }
 
 .header .contacts:hover,
-.header .contacts:focus{
+.header .contacts:focus {
   color: var(--accent-color);
 }
 
@@ -137,14 +143,14 @@ img {
 
 /* Hero */
 
-.hero{
+.hero {
   background-color: var(--hero-color);
 
   padding-top: 200px;
   padding-bottom: 200px;
 }
 
-.hero .title{
+.hero .title {
   max-width: 696px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -160,37 +166,37 @@ img {
   letter-spacing: 0.06em;
 }
 
-.hero .button{
+.hero .button {
   display: block;
   padding: 10px 32px;
   border-radius: 4px;
   border: none;
   margin: 0 auto;
-  
+
   font-family: inherit;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
-  
+
   background-color: var(--accent-color);
   color: var(--color-white);
 }
 
 .hero .button:hover,
-.hero .button:focus{
+.hero .button:focus {
   background-color: var(--hero-button-color);
 }
 
 /* Advances */
 
-.advances{
+.advances {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.advances .list{
+.advances .list {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -200,7 +206,7 @@ img {
   max-width: 270px;
 }
 
-.advances .title{
+.advances .title {
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -212,17 +218,17 @@ img {
 
 /* Photo Section */
 
-.photo-section{
+.photo-section {
   padding-bottom: 94px;
 }
 
-.photo-section .list{
+.photo-section .list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.photo-section .title{
+.photo-section .title {
   margin-bottom: 50px;
 
   color: var(--title-text-color);
@@ -234,14 +240,14 @@ img {
 
 /* Team */
 
-.team{
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--team-section-color);
   text-align: center;
 }
 
-.team .title{
+.team .title {
   margin-bottom: 50px;
 
   color: var(--title-text-color);
@@ -250,23 +256,23 @@ img {
   line-height: 1.12;
 }
 
-.team .list{
+.team .list {
   display: flex;
   justify-content: center;
   gap: 30px;
 }
 
-.team .item{
+.team .item {
   width: calc((100%-90) / 4);
 
   background-color: #ffffff;
 }
 
-.team .desc{
+.team .desc {
   padding: 30px 0;
 }
 
-.team-mate{
+.team-mate {
   margin-bottom: 10px;
 
   color: var(--title-text-color);
@@ -275,66 +281,66 @@ img {
   line-height: 1.19;
 }
 
-.team .text{
+.team .text {
   font-size: 16px;
   line-height: 1.19;
 }
 
 /* Footer */
 
-.footer{
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: var(--hero-color);
 }
 
-.footer .logo{
+.footer .logo {
   display: block;
   margin-bottom: 20px;
 }
 
-.footer .part{
+.footer .part {
   color: var(--color-white);
 }
 
-.footer .item:not(:last-child){
+.footer .item:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer .goelocation{
+.footer .goelocation {
   color: var(--color-white);
 }
 
-.footer .link{
+.footer .link {
   color: var(--footer-contacts-color);
 }
 
-.footer .element{
+.footer .element {
   text-decoration: none;
   font-style: normal;
 }
 
 .footer .element:hover,
-.footer .element:focus{
+.footer .element:focus {
   color: var(--accent-color);
 }
 
 /* Portfolio */
 
-.work-list{
+.work-list {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.filter{
+.filter {
   display: flex;
   justify-content: center;
   gap: 8px;
   margin-bottom: 50px;
 }
 
-.filter .button{
+.filter .button {
   padding: 6px 22px;
   border-radius: 4px;
   border: none;
@@ -348,42 +354,41 @@ img {
   cursor: pointer;
 }
 
-.filter .button:first-child{
+.filter .button:first-child {
   padding: 6px 25px;
 }
 
 .filter .button:hover,
-.filter .button:focus{
+.filter .button:focus {
   color: var(--color-white);
   background-color: var(--accent-color);
 }
 
-.works{
+.works {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.works .title{
-margin-bottom: 4px;
+.works .title {
+  margin-bottom: 4px;
 
-color: var(--title-text-color);
-font-size: 18px;
-font-weight: 700;
-line-height: 2;
-letter-spacing: 0.06em;
+  color: var(--title-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
-.works .text{
+.works .text {
   font-size: 16px;
   line-height: 1.88;
 }
 
-
-.works .item{
+.works .item {
   padding: 20px 24px;
   max-width: 370px;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
